@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A8C26979-945E-46FF-8F25-9674FCF85135}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MentorMentee_Project</RootNamespace>
+    <AssemblyName>MentorMentee_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>program.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_main.Designer.cs">
+      <DependentUpon>Admin_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePW.Designer.cs">
+      <DependentUpon>ChangePW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_func.cs" />
+    <Compile Include="exit%28ing%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exit%28ing%29.Designer.cs">
+      <DependentUpon>exit%28ing%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="info.Designer.cs">
+      <DependentUpon>info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Join_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Join_form.Designer.cs">
+      <DependentUpon>Join_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mentee_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mentee_edit.Designer.cs">
+      <DependentUpon>Mentee_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mentee_join.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mentee_join.Designer.cs">
+      <DependentUpon>Mentee_join.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mentee_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mentee_main.Designer.cs">
+      <DependentUpon>Mentee_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mentee_myrequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mentee_myrequest.Designer.cs">
+      <DependentUpon>Mentee_myrequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mentee_requestMentoring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mentee_requestMentoring.Designer.cs">
+      <DependentUpon>Mentee_requestMentoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mentor_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mentor_edit.Designer.cs">
+      <DependentUpon>Mentor_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mentor_join.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mentor_join.Designer.cs">
+      <DependentUpon>Mentor_join.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mentor_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mentor_main.Designer.cs">
+      <DependentUpon>Mentor_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin_main.resx">
+      <DependentUpon>Admin_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePW.resx">
+      <DependentUpon>ChangePW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info.resx">
+      <DependentUpon>info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Join_form.resx">
+      <DependentUpon>Join_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mentee_edit.resx">
+      <DependentUpon>Mentee_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mentee_join.resx">
+      <DependentUpon>Mentee_join.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mentee_main.resx">
+      <DependentUpon>Mentee_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mentee_myrequest.resx">
+      <DependentUpon>Mentee_myrequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mentee_requestMentoring.resx">
+      <DependentUpon>Mentee_requestMentoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mentor_edit.resx">
+      <DependentUpon>Mentor_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mentor_join.resx">
+      <DependentUpon>Mentor_join.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mentor_main.resx">
+      <DependentUpon>Mentor_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="program.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

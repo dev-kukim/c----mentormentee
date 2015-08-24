@@ -1,0 +1,16 @@
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\bin\Release\MentorMentee_Project.exe.config
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\bin\Release\MentorMentee_Project.exe
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\bin\Release\MentorMentee_Project.pdb
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.Admin_main.resources
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.Join_form.resources
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.Login.resources
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.Mentee_join.resources
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.Mentee_main.resources
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.Mentee_myrequest.resources
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.Mentee_requestMentoring.resources
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.Mentor_join.resources
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.Mentor_main.resources
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.Properties.Resources.resources
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.csproj.GenerateResource.Cache
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.exe
+C:\Users\mango\documents\visual studio 2013\Projects\MentorMentee_Project\MentorMentee_Project\obj\Release\MentorMentee_Project.pdb
